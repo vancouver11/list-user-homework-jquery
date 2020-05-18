@@ -1,0 +1,85 @@
+*{
+	padding: 0;
+	margin: 0
+}
+
+#getBtn{
+	padding: 3px;
+	background-color: blue;
+	width: 66px;
+	border: 2px solid darkblue;
+	border-radius: 10px;
+	color:white;
+	text-align: center;
+	margin: 20px;
+	cursor: pointer;
+}
+#addBtn{
+	padding: 3px;
+	background-color:green;
+	width: 66px;
+	border: 2px solid red;
+	border-radius: 10px;
+	color:white;
+	text-align: center;
+	margin: 20px;
+	cursor: pointer;
+}
+#addBtn:hover{
+background-color: darkgreen;	
+}
+#getBtn:hover{
+	background-color: darkblue;
+}
+
+#listUsers{
+	width: 100%;
+	padding: 20px;
+	border: 1px solid;
+	display: flex;
+	flex-wrap: wrap;
+}
+.card{
+margin:10px;
+width: 200px
+}
+.card .name,.lastName,.email{
+	font-weight: 900
+}
+.card .email{
+	display: inline-block;
+}
+
+.avatar{
+	width: 128px;
+	height: 128px
+}
+.innerEmail{
+font-weight: normal
+}
+
+.hidden{
+display: none
+}
+#pages{
+	display: flex;
+	justify-content: center
+}
+#pages .page{
+	margin: 5px;
+	padding: 10px;
+	border:1px solid;
+	border-radius: 50%;
+	cursor: pointer;
+}
+#pages .page:hover{
+	background-color: blue;
+	color:white;
+}
+#pageCurrent{
+	text-align: center
+}
+
+#addList{
+
+}
